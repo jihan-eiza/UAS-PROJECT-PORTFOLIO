@@ -178,12 +178,3 @@ const scrollActive = () => {
 }
 
 window.addEventListener('scroll', scrollActive)
-
-
-/*=============== CUSTOM CURSOR ===============*/
-
-
-/* Hide custom cursor on links */
-
-
-/*=============== SCROLL REVEAL ANIMATION ===============*/
