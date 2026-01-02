@@ -566,6 +566,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 2rem;
+  width: max-content;
 }
 
 .media__button{
@@ -578,9 +579,6 @@ img {
   font-family: var(--second-font);
   cursor: pointer;
   transition: color .4s;
-  position: relative;
-  padding: .7rem 2rem;   
-  min-width: 100px; 
 }
 
 }
