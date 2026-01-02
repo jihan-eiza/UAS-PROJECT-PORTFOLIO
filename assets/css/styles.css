@@ -580,8 +580,9 @@ img {
   transition: color .4s;
   position: relative;
   padding: .6rem 1.4rem;   
-  min-width: 90px;        
+  min-width: 100px;        
   justify-content: center;
+  text-align: center;
 }
 
 }
