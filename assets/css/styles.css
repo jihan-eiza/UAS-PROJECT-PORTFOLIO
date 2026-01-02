@@ -579,10 +579,8 @@ img {
   cursor: pointer;
   transition: color .4s;
   position: relative;
-  padding: .6rem 1.4rem;   
-  min-width: 2000px;        
-  justify-content: center;
-  text-align: center;
+  padding: .7rem 2rem;   
+  min-width: 100px; 
 }
 
 }
