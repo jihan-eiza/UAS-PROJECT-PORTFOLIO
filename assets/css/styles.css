@@ -571,16 +571,19 @@ img {
 .media__button{
   background: none;
   color: var(--text-color);
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: .3rem;
-  padding: .5rem 1rem;        
-  border-radius: 999px;       
-  white-space: nowrap;        
+  column-gap: .25rem;
   font-size: var(--small-font-size);
   font-family: var(--second-font);
   cursor: pointer;
-  transition: color .4s, background-color .4s;
+  transition: color .4s;
+  position: relative;
+  padding: .6rem 1.4rem;   
+  min-width: 90px;        
+  justify-content: center;
+}
+
 }
 
 .media__button i{
@@ -688,7 +691,6 @@ img {
 /* Active tab */
 .media__button.media__active{
   color: var(--first-color);
-  background-color: hsla(var(--hue), 60%, 64%, .1);
 }
 
 /*=============== INFORMASI ===============*/
