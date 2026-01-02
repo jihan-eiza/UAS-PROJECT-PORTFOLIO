@@ -573,12 +573,10 @@ img {
   color: var(--text-color);
   display: inline-flex;
   align-items: center;
-  gap: .5rem;
-
+  gap: .3rem;
   padding: .5rem 1rem;        
   border-radius: 999px;       
   white-space: nowrap;        
-
   font-size: var(--small-font-size);
   font-family: var(--second-font);
   cursor: pointer;
