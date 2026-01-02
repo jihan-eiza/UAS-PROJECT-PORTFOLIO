@@ -561,12 +561,11 @@ img {
 /*=============== MEDIA ===============*/
 .media__tabs{
   background-color: var(--container-color);
-  padding: 1.25rem 2rem;
+  padding: 2rem 2rem;
   border-radius: 4rem;
   display: flex;
   justify-content: center;
   gap: 2rem;
-  width: max-content;
 }
 
 .media__button{
