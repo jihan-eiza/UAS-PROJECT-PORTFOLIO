@@ -178,13 +178,6 @@ img {
   position: absolute;
   z-index: -1;
 }
-
-/*=============== CUSTOM CURSOR ===============*/
-
-
-/* Hide the custom cursor */
-
-
 /*=============== HEADER & NAV ===============*/
 .header{
   position: fixed;
@@ -578,13 +571,18 @@ img {
 .media__button{
   background: none;
   color: var(--text-color);
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  column-gap: .25rem;
+  gap: .5rem;
+
+  padding: .5rem 1rem;        
+  border-radius: 999px;       
+  white-space: nowrap;        
+
   font-size: var(--small-font-size);
   font-family: var(--second-font);
   cursor: pointer;
-  transition: color .4s;
+  transition: color .4s, background-color .4s;
 }
 
 .media__button i{
@@ -692,6 +690,7 @@ img {
 /* Active tab */
 .media__button.media__active{
   color: var(--first-color);
+  background-color: hsla(var(--hue), 60%, 64%, .1);
 }
 
 /*=============== INFORMASI ===============*/
@@ -790,13 +789,6 @@ img {
 .informasi-open .informasi__button i{
   rotate: -180deg;
 }
-
-/*=============== TESTIMONIALS ===============*/
-
-
-/* Infinite scroll animation */
-
-
 /*=============== CONTACT ===============*/
 .contact__container{
   row-gap: 4rem;
@@ -1198,8 +1190,3 @@ img {
     font-size: 1.25rem;
   }
 }
-
-/* For 2K resolutions (2048 x 1152, 2048 x 1536) */
-
-
-/* Custom cursor is hidden for mobile devices */
